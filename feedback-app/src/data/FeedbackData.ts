@@ -1,4 +1,10 @@
-const FeedbackData = [
+export interface Feedback {
+  id: number;
+  rating: number;
+  text: string;
+}
+
+const FeedbackData: Feedback[] = [
   {
     id: 1,
     rating: 10,

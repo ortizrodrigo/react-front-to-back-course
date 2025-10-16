@@ -1,6 +1,7 @@
 import FeedbackItem from "./FeedbackItem";
+import type { Feedback } from "../data/FeedbackData";
 
-function FeedbackList({ feedback }) {
+function FeedbackList({ feedback }: { feedback: Feedback[] }) {
   if (!feedback || feedback.length === 0) {
     return <p>No Feedback Yet</p>;
   }

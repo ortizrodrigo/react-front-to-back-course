@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    // Target and Module
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["DOM", "ESNext"],
+
+    // React
+    "jsx": "react-jsx",
+
+    // Strictness
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+
+    // JS Interop
+    "allowJs": true,
+    "checkJs": false,
+
+    // Output
+    "sourceMap": true,
+    "declaration": false,
+    "declarationMap": false,
+
+    // Types
+    "types": ["react", "react-dom"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}

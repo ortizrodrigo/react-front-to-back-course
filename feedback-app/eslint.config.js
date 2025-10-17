@@ -8,8 +8,6 @@ import { defineConfig, globalIgnores } from "eslint/config";
 
 export default defineConfig([
   globalIgnores(["dist"]),
-
-  // ✅ JavaScript files
   {
     files: ["**/*.{js,jsx}"],
     languageOptions: {
@@ -31,8 +29,6 @@ export default defineConfig([
       "no-unused-vars": ["error", { varsIgnorePattern: "^[A-Z_]" }],
     },
   },
-
-  // ✅ TypeScript files
   {
     files: ["**/*.{ts,tsx}"],
     languageOptions: {

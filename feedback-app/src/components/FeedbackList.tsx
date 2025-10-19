@@ -6,7 +6,7 @@ function FeedbackList({
   handleDelete,
 }: {
   feedback: Feedback[];
-  handleDelete: (id: number) => void;
+  handleDelete: (id: string) => void;
 }) {
   if (!feedback || feedback.length === 0) {
     return <p>No Feedback Yet</p>;

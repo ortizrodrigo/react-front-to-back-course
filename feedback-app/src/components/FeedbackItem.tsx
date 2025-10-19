@@ -7,7 +7,7 @@ function FeedbackItem({
   handleDelete,
 }: {
   item: Feedback;
-  handleDelete: (id: number) => void;
+  handleDelete: (id: string) => void;
 }) {
   return (
     <Card>
